@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+	<!--
+	Name: Jacques Favre
+    Date: April 8 23 2017
+    Class: CGS1821.051
+    Assignment: Week Last 
+    Language: HTML 5
+    Purpose: Final Project
+    Adding JavaScript and Jquery function
+    Includes: CSS style sheet, normalize CSS, slicknav CSS, JS folder
+    favicon_cgs1821_p.ico
+    page_title_cgs1821_p.png
+    openclipartpdf17.png
+    Link to JacquesCV.PDF
+	-->
+
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Links</title>
+	<link rel="shortcut icon" href="../images/favicon_cgs1821_p.ico">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/jacques_favre_cgs1821_f.css">	
+<!--Add on for mobile menu page 303 book -->
+	<link rel="stylesheet" href="../styles/jacques_favre_cgs1821_p_slicknav.css">
+  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ 	 crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  	crossorigin="anonymous"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+<!-- responsive menu -->
+<script type="text/javascript">
+
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+	<header>
+<h2><a href="../index.html" class="current">Portfolio</a></h2>
+		<h3>Jacques Favre</h3>	 
+		
+		 <nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+    	<ul>
+        	<li><a href="../index.html">Home</a></li>
+        	<li><a href="../pages/links.html">Links</a></li>
+        	<li><a href="../pages/projects.html">Projects</a>
+        			<ul>
+            			<li id="projects"><a href="../pages/projects.html">Projects list</a></li>
+                		<li><a href="../pages/jaf.html">Jaf</a></li>
+                		<li><a href="../pages/velo.html">Bikes</a></li>
+                		<li><a href="../pages/dior.html">Dior</a></li>
+                		<li><a href="../pages/it.html">Jacques</a></li>
+        			</ul>
+        		</li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+    	</ul>
+	</nav>
+</header>
+
+<main>
+
+	
+
+		 
+		<h1>LINKS</h1>
+		
+
+		<ol>
+		
+		
+		<li>A 3D printed history of clocks<br>
+		Print and build a horology museum at home<br>
+		<a href="https://sites.google.com/view/3dprintedhorology/home/" target="blank">https://sites.google.com/view/3dprintedhorology/home/</a>					
+		</li>
+		<li>A 3d view of one of my latest project, a 3D printed watch:<br><a href="https://jacprog.github.io/roskopf3Dmodel/watch8.xhtml" target="blank">https://jacprog.github.io/roskopf3Dmodel/watch8.xhtml</a>				
+		</li>		
+		<li>My YouTube Chanel, mostly about design and build of 3D printed clocks<br><a href="https://www.youtube.com/channel/UCo6YWuYq4mXjZRZX21h3zlQ/" target="blank">https://www.youtube.com/channel/UCo6YWuYq4mXjZRZX21h3zlQ</a>				
+		</li>	
+		<li>A tutorial about how to publish a web site with GitHub:<br><a href="https://jacprog.github.io/project-upload/" target="blank">https://jacprog.github.io/project-upload/</a>				
+		</li>	
+			
+
+		<li><a href="../docs/JacquesCV2022.pdf" type="application/pdf" target="blank">My current CV.</a></p></li>
+		<a href="../docs/JacquesCV2022.pdf" type="application/pdf" target="blank"><img id="phone" src="../images/openclipartpdf17.png" alt="PDF Icon"></a>		
+		
+		
+				
+		
+		
+		
+		
+		</ol>
+		<p><a href="mailto:jacqueshfavre@gmail.com?&subject=Jacques%20Favre%20Portfolio"><strong>Email me</strong></a> with questions or comments.</p>
+		
+
+
+</main>
+<footer>
+	<p>
+	<a href="../pages/termsAndPrivacy.html">Terms and Privacy</a>&nbsp;&nbsp;&copy; 2017	Jacques Favre ajfavre.com</p>
+</footer>
+</body>
+</html>

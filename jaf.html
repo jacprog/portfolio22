@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!--
+	Name: Jacques Favre
+    Date: April 8 23 2017
+    Class: CGS1821.051
+    Assignment: Week Last 
+    Language: HTML 5
+    Purpose: Final Project
+    Adding JavaScript and Jquery function
+    Includes: CSS style sheet, normalize CSS, slicknav CSS, JS folder
+    favicon_cgs1821_p.ico
+    page_title_cgs1821_p.png
+    openclipartpdf17.png
+    Link to JacquesCV.PDF
+	-->	
+	<head>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jaf</title>
+	<link rel="shortcut icon" href="../images/favicon_cgs1821_p.ico">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/jacques_favre_cgs1821_f.css">	
+<!--Add on for mobile menu page 303 book -->
+	<link rel="stylesheet" href="../styles/jacques_favre_cgs1821_p_slicknav.css">
+  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ 	 crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  	crossorigin="anonymous"></script>
+  	<script src="../js/rollover.js"></script>
+        <script src="../js/rollover2.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+<!-- responsive menu -->
+<script type="text/javascript">
+
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+	<header>
+<h2><a href="../index.html" class="current">Portfolio</a></h2>
+		<h3>Jacques Favre</h3>	 
+		
+		 <nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+    	<ul>
+        	<li><a href="../index.html">Home</a></li>
+        	<li><a href="../pages/links.html">Links</a></li>
+        	<li><a href="../pages/projects.html">Projects</a>
+        			<ul>
+            			<li id="projects"><a href="../pages/projects.html">Projects list</a></li>
+                		<li><a href="../pages/jaf.html">Jaf</a></li>
+                		<li><a href="../pages/velo.html">Bikes</a></li>
+                		<li><a href="../pages/dior.html">Dior</a></li>
+                		<li><a href="../pages/it.html">Jacques</a></li>
+        			</ul>
+        		</li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+    	</ul>
+	</nav>
+	</header>
+
+<main>
+
+	
+
+
+    	
+<div>
+<!-- 						<img src="../images/jafside.jpg" alt="Jaf at home"> -->
+						<div id="image_rollovers"><img src="../images/jafside.jpg" alt= " " id="../images/jaf1_3_4.jpg"></div>
+						
+						<h1>Recycling manufacturing - JAF</h1>						
+						<p>Many cars get discarded because of their age. However a lot of the mechanical parts, like axles and transmission, are still in good condition and could be reused.</p>
+						<p>Reused parts could be shipped to a developing countries and used to build utility vehicles. Here is a project I built using a recycled Toyota Tercel 4WD. I called it affectionately  the &ldquo;JAF&rdquo;.</p>
+
+						<div id="image_rollovers2"><img src="../images/jaftoyota.jpg" alt= " " id="../images/jaffr.jpg"></div>
+						
+<!-- 						<img src="../images/jaftoyota.jpg" alt="Jaf at home"> -->
+	
+								
+</div>
+			
+  </main>
+<footer>
+	<p>
+	<a href="../pages/termsAndPrivacy.html">Terms and Privacy</a>&nbsp;&nbsp;&copy; 2017	Jacques Favre ajfavre.com</p>
+</footer>
+</body>
+</html>
